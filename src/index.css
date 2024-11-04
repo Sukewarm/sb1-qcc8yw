@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .drop-shadow-glow {
+    filter: drop-shadow(0 0 0.75rem rgba(16, 185, 129, 0.25));
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
+}
